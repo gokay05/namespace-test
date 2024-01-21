@@ -1,0 +1,12 @@
+target-version = "py311"
+
+namespace-packages = [
+    "nonpackage",
+    "namespacepackages/namespacepackages/folder2",
+]
+
+
+[lint]
+select = [
+    "INP", 
+]
